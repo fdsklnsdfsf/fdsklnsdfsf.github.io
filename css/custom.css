@@ -1,5 +1,5 @@
 :root {
-  --trans-light: rgba(255, 255, 255, 0.75);
+  --trans-light: rgba(255, 255, 255, 0.9);
   --trans-dark: rgba(25, 25, 25, 0.6);
   --border-style: 1px solid rgb(169, 169, 169);
   --backdrop-filter: blur(5px) saturate(150%);
@@ -651,3 +651,9 @@ body::-webkit-scrollbar {
   width: 20px;
   height: 20px;
 } */
+
+
+.loading-img {
+  background: url(https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/avatar.webp) no-repeat center center;
+  background-size: cover;
+}
