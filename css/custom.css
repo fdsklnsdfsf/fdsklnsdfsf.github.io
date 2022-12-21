@@ -73,9 +73,31 @@
   display: flex !important;
 }
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
-.menus_items .menus_item:nth-child(5) .menus_item_child {
+/* .menus_items .menus_item:nth-child(5) .menus_item_child {
   left: 400px;
+} */
+
+.menus_item_child li:not(#sidebar-menus li){
+  float: left;
+  border-radius: 6px!important;
+  -webkit-border-radius: 6px!important;
+  -moz-border-radius: 6px!important;
+  -ms-border-radius: 6px!important;
+  -o-border-radius: 6px!important;
 }
+.menus_item_child:not(#sidebar-menus ul){
+/*
+  left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调
+改为：*/
+left:50%;
+translate:-50%;
+}
+
+
+作者: Ariasaka
+链接: https://yisous.xyz/posts/895003b5/
+来源: Ariasakaの小窝
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 /* 夜间模式菜单栏发光字 */
 [data-theme="dark"] #nav .site-page,
@@ -652,8 +674,68 @@ body::-webkit-scrollbar {
   height: 20px;
 } */
 
-
+/* 加载动画 */
 .loading-img {
   background: url(https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/avatar.webp) no-repeat center center;
   background-size: cover;
 }
+
+/*文章分页卡片美化*/
+#pagination .prev-post a, #pagination .next-post a {
+  border-style: ridge;
+  border-width: 8px;
+  border-color: #d2d2d2;
+}
+
+/* 文章目录 */
+#aside-content #card-toc .toc-content {
+  margin: 10px -18px;
+}
+ #aside-content #card-toc .toc-content .toc-link.active {
+  line-height: 1.2;
+  border-radius: 12px;
+  border-left-color: var(--heo-hovertext);
+  background-color: var(--heo-card-bg);
+  color: var(--heo-lighttext);
+  font-weight: bold;
+  font-size: 20px;
+}
+[data-theme=dark].toc .toc-item.active .toc-link .toc-text {
+  color: var(--heo-white);
+}
+#aside-content #card-toc .toc-content .toc-item.active .toc-link {
+  opacity: 1;
+  border-radius: 8px;
+}
+#aside-content #card-toc .toc-content .toc-link {
+  line-height: 1.2;
+  padding: 8px;
+  border-left: 0px solid transparent;
+  border-radius: 12px;
+  color: var(--heo-secondtext);
+  cursor: default;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span {
+  opacity: 0.6;
+  cursor: pointer;
+  filter: blur(1px);
+  transition: 0.3s;
+}
+#aside-content #card-toc:hover .toc-content .toc-link:not(.active) span {
+  filter: blur(0px);
+  opacity: 1;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
+  color: var(--heo-lighttext);
+}
+
+
+/*评论背景*/
+#twikoo .tk-content {
+  background: rgb(213 213 213 / 60%);
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+
+
+
