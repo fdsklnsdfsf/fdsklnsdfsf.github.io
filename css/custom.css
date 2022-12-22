@@ -749,10 +749,6 @@ body::-webkit-scrollbar {
   margin-left:0!important;
 }
 
-.welcome-info{
-   background-color: #1e1e1e;
-}
-
 .card-announcement span{
   font-weight:bold;
   font-size:20px!important;
