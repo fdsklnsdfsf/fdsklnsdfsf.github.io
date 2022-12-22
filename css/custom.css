@@ -94,10 +94,6 @@ translate:-50%;
 }
 
 
-作者: Ariasaka
-链接: https://yisous.xyz/posts/895003b5/
-来源: Ariasakaの小窝
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 /* 夜间模式菜单栏发光字 */
 [data-theme="dark"] #nav .site-page,
@@ -737,6 +733,31 @@ body::-webkit-scrollbar {
   border-radius: 7px;
 }
 
+:root {
+  --ichika-emphasis-color: #F7F81A;
+}
+
+/* 公告&欢迎页 */
+.card-announcement {
+  background: linear-gradient(to top left, #ffffff00 0%, #f5f5f5 0%) !important;
+  color:rgb(0, 0, 0);
+  line-height:30px;
+  font-size:16px;
+}
+
+.card-announcement .item-headline span{
+  margin-left:0!important;
+}
+
+.welcome-info{
+   background-color: #1e1e1e;
+}
+
+.card-announcement span{
+  font-weight:bold;
+  font-size:20px!important;
+  color:rgb(11, 235, 209);
+}
 
 
 
