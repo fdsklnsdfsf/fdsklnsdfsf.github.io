@@ -674,7 +674,7 @@ body::-webkit-scrollbar {
 /* 加载动画 */
 .loading-img {
   background: url(https://blog-picture.s3.ladydaily.com/img/%E5%A4%B4%E5%83%8F.webp) no-repeat center center;
-  background-size: 200px; /*cover*/
+  background-size: cover; /*cover*/
 }
 
 /*文章分页卡片美化*/
