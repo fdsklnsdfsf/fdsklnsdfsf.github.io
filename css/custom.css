@@ -67,7 +67,7 @@
   width: fit-content !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
-  
+  font-size: 1.2em;
 }
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
@@ -264,6 +264,10 @@ div#archive {
   backdrop-filter: var(--backdrop-filter);
   border: var(--border-style);
   border-radius: 20px;
+  
+}
+#category, #page, #tag {
+  width: 100%;
 }
 
 /* 导航栏 */
@@ -803,4 +807,10 @@ body::-webkit-scrollbar {
 }
 
 
-
+/* .about_page {
+  background: #fafafa;
+  border-radius: 20px;
+  padding: 12px;
+  margin: 5px;
+  border: 2px solid #a0a0a0;
+} */
