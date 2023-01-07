@@ -144,3 +144,4 @@ if (document.body.clientWidth > 992) {
         */
     })
 }
+
