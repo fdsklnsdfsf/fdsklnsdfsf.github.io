@@ -46,7 +46,7 @@
   /* 为载入的字体取名字(随意) */
   font-family: 'YSHST';	
   /* 字体文件地址(相对或者绝对路径都可以) */
-  src: url(/font/花卷体.woff2);
+  src: url(/font/霞鹜文楷.woff2);
   /* 定义加粗样式(加粗多少) */
   font-weight: normal;
   /* 定义字体样式(斜体/非斜体) */
@@ -67,7 +67,7 @@
   width: fit-content !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
@@ -717,7 +717,7 @@ body::-webkit-scrollbar {
   background-color: var(--heo-card-bg);
   color: var(--heo-lighttext);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 [data-theme=dark].toc .toc-item.active .toc-link .toc-text {
   color: var(--heo-white);
