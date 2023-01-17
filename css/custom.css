@@ -1,3 +1,4 @@
+
 :root {
   --trans-light: rgba(255, 255, 255, 0.9);
   --trans-dark: rgba(25, 25, 25, 0.6);
@@ -30,17 +31,7 @@
     background: transparent !important;
   }
 
- /* 小冰分类分类磁铁黑夜模式适配 */
-/* 一般状态 */
-[data-theme="dark"] .magnet_link_context {
-  background: #1e1e1e;
-  color: antiquewhite;
-}
-/* 鼠标悬浮状态 */
-[data-theme="dark"] .magnet_link_context:hover {
-  background: #3ecdf1;
-  color: #f2f2f2;
-}
+
 
 @font-face {
   /* 为载入的字体取名字(随意) */
@@ -61,23 +52,18 @@
   margin: auto;
 }
 
-/* 一级菜单居中 */
-#nav .menus_items {
-  position: absolute !important;
-  width: fit-content !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  font-size: 1.1em;
+/* 导航栏居中 */
+#nav-right{
+  flex:1 1 auto;
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+  flex-wrap:nowrap;
 }
-/* 子菜单横向展示 */
-#nav .menus_items .menus_item:hover .menus_item_child {
-  display: flex !important;
-}
-/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
-/* .menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: 400px;
-} */
 
+#nav *::after{
+  background-color: transparent!important;
+}
 .menus_item_child li:not(#sidebar-menus li){
   float: left;
   border-radius: 6px!important;
@@ -215,7 +201,7 @@ div#archive {
   width: 100%;;
 }
 
-/* 导航栏 */
+导航栏
 #page-header.nav-fixed #nav {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: var(--backdrop-filter);
@@ -594,27 +580,17 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.iconfont {
-  font-family: "iconfont" !important;
-  /* 这里可以自定义图标大小 */
-  font-size: 3em;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 svg.icon {
-  width: 1.28em;
-  height: 1.28em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: -.15em;
+    fill: currentColor;
+    overflow: hidden;
 }
-
 
 svg.social_icon {
-  width: 1.20em;
-  height: 1.20em;
+  width: 1.15em;
+  height: 1.15em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
