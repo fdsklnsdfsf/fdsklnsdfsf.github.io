@@ -6066,6 +6066,25 @@ li.categoryBar-list-item {
 #nav .site-page:not(.child):hover:after {
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  #nav #toggle-menu {
+    display: inline-block !important;
+  }
+  #nav #toggle-menu .site-page {
+    font-size: inherit;
+  }
+  #nav .menus_items {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  #nav #search-button span {
+    display: none !important;
+  }
+}
 .loading-bg {
   display: -webkit-box;
   display: -moz-box;

@@ -61,6 +61,7 @@
   flex-wrap:nowrap;
 }
 
+
 #nav *::after{
   background-color: transparent!important;
 }
@@ -581,11 +582,11 @@ body::-webkit-scrollbar {
 }
 
 svg.icon {
-    width: 1.3em;
-    height: 1.3em;
-    vertical-align: -.15em;
-    fill: currentColor;
-    overflow: hidden;
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
 
 svg.social_icon {
