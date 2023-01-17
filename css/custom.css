@@ -45,6 +45,15 @@
   /* 定义显示样式 */
   font-display: block;
 }
+@font-face{
+  font-family:'Candyhome' ;  /* 字体名自定义即可 */
+  src:url('/font/Candy.woff2'); /* 字体文件路径 */
+  font-display : swap;
+}
+h1#site-title {
+  font-family: 'Candyhome', sans-serif;
+}
+
 
 /* 翻页按钮居中 */
 #pagination {
@@ -595,4 +604,8 @@ svg.social_icon {
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
+}
+
+#nav .site-page {
+  font-size: 0.9em;
 }
