@@ -8956,7 +8956,7 @@ span.categoryBar-list-count {
   font-size: 20px !important;
 }
 span.categoryBar-list-count::before {
-  content: '📚' !important;
+  content: '\f02d' !important;
   padding-right: 15px !important;
 }
 span.categoryBar-list-count::after {

@@ -211,7 +211,7 @@ div#archive {
   width: 100%;;
 }
 
-导航栏
+/* 导航栏 */
 #page-header.nav-fixed #nav {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: var(--backdrop-filter);
@@ -293,37 +293,37 @@ h6::before {
 #content-inner.layout h1::before {
   color: #ef50a8;
   margin-left: -1.55rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-top: -0.23rem;
 }
 #content-inner.layout h2::before {
   color: #fb7061;
   margin-left: -1.35rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: -0.12rem;
 }
 #content-inner.layout h3::before {
   color: #ffbf00;
   margin-left: -1.22rem;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   margin-top: -0.09rem;
 }
 #content-inner.layout h4::before {
   color: #a9e000;
   margin-left: -1.05rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: -0.09rem;
 }
 #content-inner.layout h5::before {
   color: #57c850;
   margin-left: -0.9rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin-top: 0rem;
 }
 #content-inner.layout h6::before {
   color: #5ec1e0;
   margin-left: -0.9rem;
-  font-size: 0.7rem;
+  font-size: 0.66rem;
   margin-top: 0rem;
 }
 /* s设置风车hover动效 6s那里可以自己调节快慢*/
